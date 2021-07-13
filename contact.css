@@ -1,0 +1,193 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family:Verdana,sans-serif;
+	background: rgb(202, 206, 198) !important;
+}
+.heading{
+	margin-top:40px;
+	height: 80px;
+	text-align:center;
+}
+.heading h1{
+	font-weight: 900;
+}
+.heading p{
+	font-size: 17px;
+}
+.main-div{
+	background:white;
+	height: 450px;
+	width: 80%;
+	margin: 30px auto;
+	padding: 5px;
+	border-radius: 10px;
+	display: flex;
+}
+.info-div{
+	background:rgb(38, 5, 53);
+	height: 441px;
+	width: 28%;
+	padding: 15px 25px;
+	border-radius: 10px;
+}
+.circle{
+	height: 130px;
+	width: 130px;
+	border-top-left-radius: 100%;
+	border-bottom-right-radius: 10px;
+	position: absolute;
+	margin-top: 296px;
+	margin-left: 148px;
+	background-color: rgb(230,84,23);
+}
+.circle2{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: rgba(99, 15, 121,.9);
+}
+.heading2 h3{
+	font-weight: 500;
+	color: white;
+
+}
+.heading2 p{
+	font-size: 13px;
+	color: rgba(255, 255, 255,.4);
+}
+.contacts {
+	margin: 50px 0px 80px 0px;
+	display: grid;
+    grid-row-gap: 30px;
+}
+.contacts a{
+	color: rgba(255, 255, 255,.6);
+	font-size: 13px;
+}
+.contacts a:hover{
+	text-decoration: none;
+}
+.contacts i{
+	color: rgba(230,84,23);
+	margin-right: 10px;
+}
+.social-links i{
+	color: white;
+	width: 30px;
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	transition: .5s;
+}
+.social-links i:hover{
+	background-color: rgb(230,84,23);
+	cursor: pointer;
+	border-radius: 50%;
+	text-decoration: none;
+}
+.social-links a:hover{
+	text-decoration: none;
+}
+.form-div{
+	padding: 20px 40px;
+}
+.div1{
+	margin-bottom: 30px;
+}
+.form-div .div1{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-row-gap: 15px;
+	grid-column-gap: 30px;
+}
+.div1 div input[type=text],input[type=email],input[type=number]{
+	width: 100%;
+	padding-bottom: 5px;
+	font-size: 17px;
+	border:none;
+	box-sizing: border-box;
+	background: transparent;
+	outline: none;
+	transition: .5s;
+	border-bottom:1px solid rgb(151, 148, 144);
+}
+.div1 input[type=text],input[type=email],input[type=number]:hover{
+	cursor: text;
+}
+.div1 input:focus::placeholder{
+	color: transparent;
+}
+.error1,.error2,.error3,.error4 {
+  width  : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+input:invalid{
+	border-bottom:1px solid red;
+}
+.div1{
+   font-size: 15px;
+   font-weight: 600;
+}
+.form-div .div2{
+	display: grid;
+	grid-template-columns: 60% 60%;
+	grid-column-gap: 30px;
+}
+.div2 div .checks{
+	display: inline;
+	margin: 20px;
+}
+.div1 label{
+	font-weight: bold;
+}
+.div3{
+	margin-top: 10px;
+	width: 100%;
+}
+.div3 label,.div2 p{
+	font-weight: bold;
+}
+.div3 textarea{
+	width: 100%;
+	font-size: 17px;
+	outline: none;
+	border:none;
+	border-bottom:1px solid rgb(151, 148, 144);
+	background:transparent;
+	resize: none; 
+}
+.div4 input{
+	background: rgb(38, 5, 53);
+	padding: 15px 30px;
+	color: white;
+	border:none;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 545px;
+	transition: .5s;
+}
+.div4 input:hover{
+	border:none;
+	cursor: pointer;
+	background:rgb(230,84,23); 
+}
+
+
+
+
+
+
+
+
+
+
+
